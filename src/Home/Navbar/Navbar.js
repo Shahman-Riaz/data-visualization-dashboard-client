@@ -27,7 +27,10 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse " id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 fs-5 link-parent mb-lg-0">
                           
-                            
+                            <li class="nav-item">
+                                <Link class="nav-link text-dark" to="/country">Country</Link>
+                            </li>
+
                             <li class="nav-item">
                                 <Link class="nav-link text-dark" to="/topic">Topic</Link>
                             </li>
@@ -43,9 +46,7 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <Link class="nav-link text-dark" to="/source">Source</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link text-dark" to="/country">Country</Link>
-                            </li>
+                            
                             <li class="nav-item">
                                 <Link class="nav-link text-dark" to="/endYear">End year</Link>
                             </li>
