@@ -1,7 +1,7 @@
 <h1><b>Data Visualization Dashboard</b></h1>
 
 <p>It is a MERN Stack (single page application) Data Visualization Dashboard Project</p>
-<a href="https://cleaning-helper.web.app">Live UI Site</a><br>
+<a href="https://data-visualization-dashboard-client.netlify.app/">Live UI Site</a><br>
 <a href="https://peaceful-plains-79276.herokuapp.com/">Live Server Site</a>
 <br>
 <h2>Features</h2>
