@@ -1,0 +1,31 @@
+.delete-data{
+    font-size: 16px;
+}
+.delete-data table{
+    margin: 5px;
+}
+
+td button:hover{
+    background-color: red;
+    color: white;
+}
+.delete-data td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  .delete-data th{
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .delete-data tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .delete-data tr:nth-child(odd){
+      border: 1px solid #f0cdcd;
+  }

@@ -1,0 +1,25 @@
+.filterByEndYear td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+ .filterByEndYear th{
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+  }
+ .filterByEndYear tr:not(:first-child):hover{
+      box-shadow: 8px 8px 8px #b3c9db;
+      transform: scale(1.01);
+  }
+  
+  
+ .filterByEndYear tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+ .filterByEndYear tr:nth-child(odd){
+      border: 1px solid #f0cdcd;
+  }

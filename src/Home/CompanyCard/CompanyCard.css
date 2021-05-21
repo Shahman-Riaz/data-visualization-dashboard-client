@@ -1,0 +1,17 @@
+.company-card{
+    border: .2px solid gainsboro;
+    border-radius: 8px;
+    padding: 18px 5px;
+    min-height: 330px;
+    background-color: rgba(243, 250, 249, 0.767);
+}
+.company-card{
+    font-size: 17.5px;
+    font-weight: 600;
+}
+.company-card:hover{
+    box-shadow: 3px 5px 35px rgb(194, 241, 241);
+}
+.bold-text{
+    font-weight: 450;
+}

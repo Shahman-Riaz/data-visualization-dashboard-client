@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.navbar-headline{
+    font-family: 'Play', sans-serif;
+}
+.link-parent li{
+    padding: 4px;
+    text-align: center;
+}
+.link-parent li:hover{
+    background-color: rgb(224, 228, 243);
+    border-radius: 5px;
+}

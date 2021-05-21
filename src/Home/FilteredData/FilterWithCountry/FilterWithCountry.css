@@ -1,0 +1,27 @@
+.filterByCountry td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+ .filterByCountry th{
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+  }
+.filterByCountry  tr:not(:first-child):hover{
+      box-shadow: 8px 8px 8px #b3c9db;
+      transform: scale(1.01);
+  }
+  
+  
+ .filterByCountry tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+ .filterByCountry tr:nth-child(odd){
+      border: 1px solid #f0cdcd;
+  }
+  
+  
