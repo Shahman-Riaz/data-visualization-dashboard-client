@@ -26,7 +26,11 @@
 <li>Node.js</li>
 <li>Express.js</li>
 <li>MongoDB</li>
+<br>
+<h2>Deploy Tech:</h2>
 <li>Heroku</li>
+<li>Netlify</li>
+
 <br>
 
 <a href="https://github.com/Shahman-Riaz/data-visualization-server-site">Server code(repository) link</a>
