@@ -3,18 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
-    const [filter, setFilter] = useState('')
-    const [filteredCompanies, setFilteredCompanies] = useState([])
-    const handleFilter = event => {
-        setFilter(event.target.value)
-    }
-
-    useEffect(() => {
-        fetch('https://peaceful-plains-79276.herokuapp.com/companies?search=' + filter)
-            .then(res => res.json())
-            .then(data => setFilteredCompanies(data))
-    }, [filter])
-
+    
     return (
         <div className="row gx-5">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
