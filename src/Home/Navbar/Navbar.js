@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
-    
+
     return (
         <div className="row gx-5">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
