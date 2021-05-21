@@ -15,13 +15,14 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse " id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 fs-5 link-parent mb-lg-0">
                           
+                           <li class="nav-item">
+                                <Link class="nav-link text-dark" to="/topic">Topic</Link>
+                            </li>
+                            
                             <li class="nav-item">
                                 <Link class="nav-link text-dark" to="/country">Country</Link>
                             </li>
 
-                            <li class="nav-item">
-                                <Link class="nav-link text-dark" to="/topic">Topic</Link>
-                            </li>
                             <li class="nav-item">
                                 <Link class="nav-link text-dark" to="/sector">Sector</Link>
                             </li>
@@ -42,7 +43,7 @@ const Navbar = () => {
                                 <Link class="nav-link text-dark" to="/city">City</Link>
                             </li>
                             <li class="nav-item">
-                            <Link  class="nav-link text-dark" to='/addNewData'>Add new data</Link>
+                            <Link  class="nav-link text-dark" to='/addNewData'>Add new Data</Link>
                             </li>
                             <li class="nav-item">
                             <Link  class="nav-link text-dark" to='/deleteData'>Delete Data</Link>
